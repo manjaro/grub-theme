@@ -1,3 +1,3 @@
-mwhd_nonfree=true
-bootdrv="mwhd_nonfree=true"
+mhwd_nonfree=true
+bootdrv="mhwd_nonfree=true"
 def_bootdrv="nonfree"
