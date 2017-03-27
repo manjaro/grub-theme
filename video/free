@@ -1,2 +1,3 @@
 mwhd_nonfree=false
 bootdrv="mwhd_nonfree=false"
+def_bootdrv="free"
