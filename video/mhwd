@@ -1,7 +1,7 @@
-for drv in false true; do
-    menuentry "nonfree=${drv}" "${drv}" {
-        def_mhwd_nonfree="${2}"
-        mhwd_nonfree="nonfree=${2}"
+for d in free nonfree; do
+    menuentry "${d}" "${d}" {
+        def_drv="${2}"
+        drv="driver=${2}"
         menu_reload
     }
 done
