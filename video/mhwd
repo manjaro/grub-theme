@@ -1,0 +1,6 @@
+for drv in yes no; do
+    menuentry "nonfree=${drv}" "${drv}" {def_bootdrv="${2}"
+    bootdrv="nonfree=${2}"
+    menu_reload
+    }
+done
