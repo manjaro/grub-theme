@@ -27,16 +27,16 @@ title-text: ""
 	menu_pixmap_style = "menu_*.png"
 }
 
-#+ image {
-#	left = 0%
-#	top = 84%
-#        width=100%
-#	file = "logo.png"
-#}
++ image {
+	left = 0%
+	top = 84%
+        width=100%
+	file = "logo.png"
+}
 
-#+ image {
-#        left = 17%
-#        top = 15%
-#        file = "userpass.png"
-#}
++ image {
+        left = 17%
+        top = 15%
+        file = "userpass.png"
+}
 
