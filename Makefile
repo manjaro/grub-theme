@@ -14,8 +14,6 @@ TZ = $(wildcard tz/*)
 
 LOCALES = $(wildcard locales/*)
 
-VIDEO = $(wildcard video/*)
-
 install:
 	install -dm0755 $(DESTDIR)$(PREFIX)/share/grub/cfg
 	install -m0644 ${CFG} $(DESTDIR)$(PREFIX)/share/grub/cfg
@@ -25,9 +23,6 @@ install:
 
 	install -dm0755 $(DESTDIR)$(PREFIX)/share/grub/locales
 	install -m0644 ${LOCALES} $(DESTDIR)$(PREFIX)/share/grub/locales
-
-	install -dm0755 $(DESTDIR)$(PREFIX)/share/grub/video
-	install -m0644 ${VIDEO} $(DESTDIR)$(PREFIX)/share/grub/video
 
 	install -dm0755 $(DESTDIR)$(PREFIX)/share/grub/themes/manjaro-live
 	install -m0644 ${THEME} $(DESTDIR)$(PREFIX)/share/grub/themes/manjaro-live
@@ -39,7 +34,6 @@ uninstall:
 	for f in ${CFG}; do rm -f $(DESTDIR)$(PREFIX)/share/grub/cfg/$$f; done
 	for f in ${TZ}; do rm -f $(DESTDIR)$(PREFIX)/share/grub/tz/$$f; done
 	for f in ${LOCALES}; do rm -f $(DESTDIR)$(PREFIX)/share/grub/locales/$$f; done
-	for f in ${VIDEO}; do rm -f $(DESTDIR)$(PREFIX)/share/grub/video/$$f; done
 	for f in ${THEME}; do rm -f $(DESTDIR)$(PREFIX)/share/grub/theme/manjaro-live/$$f; done
 	for f in ${ICONS}; do rm -f $(DESTDIR)$(PREFIX)/share/grub/theme/manjaro-live/icons/$$f; done
 
