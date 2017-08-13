@@ -5,5 +5,5 @@ if [ -z "${keyboard}" ]; then
   def_keyboard="us"
 fi
 if [ -z "${timezone}" ]; then
-  def_timezone="Asia/Shaghai"
+  def_timezone="Asia/Shanghai"
 fi
