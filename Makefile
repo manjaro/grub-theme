@@ -1,4 +1,4 @@
-Version=17.0.1
+Version=17.1.1
 
 PREFIX = /usr/local
 
@@ -7,7 +7,7 @@ CFG = $(wildcard cfg/*.cfg)
 MTHEME = \
 	$(wildcard manjaro-live/*.png) \
 	manjaro-live/theme.txt \
-	manjaro-live/u_vga16_16.pf2
+	manjaro-live/*.pf2
 
 MICONS= $(wildcard manjaro-live/icons/*.png)
 
