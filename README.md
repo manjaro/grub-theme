@@ -1,4 +1,5 @@
-manjaro-grub-theme
-==================
+This repo has been archived. Our code is now hosted at
 
-Manjaro's grub theme for install media
+https://gitlab.manjaro.org/
+
+See you there!
