@@ -2,7 +2,7 @@ Version=18.0
 
 PREFIX = /usr/local
 
-CFG = $(wildcard cfg/*.cfg)
+CFG = $(wildcard cfg/*)
 
 MTHEME = \
 	$(wildcard manjaro-live/*.png) \
